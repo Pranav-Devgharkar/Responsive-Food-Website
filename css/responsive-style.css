@@ -95,6 +95,9 @@
     .main-btn {
         margin-bottom: 0.5rem;
     }
+    .testimonial-section .carousel-item {
+        padding: 10rem 3.125rem;
+    }
 }
 
 
