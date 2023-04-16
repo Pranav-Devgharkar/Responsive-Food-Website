@@ -92,6 +92,13 @@
 }
 
 @media (max-width:375px) {
+    .main-btn {
+        margin-bottom: 0.5rem;
+    }
+}
+
+
+@media (max-width:330px) {
 
     /* carousel design */
     .testimonial-section .carousel-item {
