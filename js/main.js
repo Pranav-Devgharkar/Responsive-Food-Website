@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }, step)
     }
     counter("count1", 0, 4, 3000)
-    counter("count2", 0, 350, 2500)
+    counter("count2", 0, 500, 2500)
     counter("count3", 0, 57, 3000)
     counter("count4", 0, 45, 3000)
 })
