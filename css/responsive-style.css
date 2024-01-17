@@ -22,7 +22,8 @@
 
     .navigation-wrap {
         text-align: center;
-        background-color: var(--white-color);
+        background-color: transparent;
+        backdrop-filter: blur(40px);
     }
 
     .navigation-wrap .nav-link {
@@ -34,13 +35,7 @@
         padding: 9.375rem 0 9.375rem;
     }
 
-    /* carousel design */
-    .testimonial-section .carousel-item .carousel-caption p {
-        padding: 0;
-
-    }
-
-    .newsletter {
+    .contact {
         width: 85%;
     }
 }
@@ -62,39 +57,36 @@
         padding: 10.875rem 0 9.375rem;
     }
 
-    /* story section */
-    .story-section {
-        height: auto;
-        padding: 3rem 0;
+    /* contact */
+    .contact {
+        width: 100%;
+        padding: 0 1.3rem;
     }
 
-    /* carousel design */
-    .testimonial-section .carousel-item {
-        padding: 11rem 3.125rem;
-    }
-
-    /* newsletter */
-    .newsletter {
-        width: 95%;
-    }
-
-    .newsletter .main-btn {
+    .contact .main-btn {
         width: 100%;
         margin-top: 1rem;
     }
+}
 
+@media (max-width:375px) {
+    .main-btn {
+        margin-bottom: 0.5rem;
+    }
 
-    /* footer link */
-    .footer .footer-link,
-    .footer a i {
-        padding: 0 0.7rem;
+    .top-banner {
+        padding: 8rem 0;
     }
 }
 
+
 @media (max-width:330px) {
 
-    /* carousel design */
-    .testimonial-section .carousel-item {
-        padding: 13rem 3.125rem;
+    .main-btn {
+        margin-bottom: 0.5rem;
+    }
+
+    .top-banner {
+        padding: 8rem 0;
     }
 }
